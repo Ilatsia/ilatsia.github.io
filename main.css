@@ -83,8 +83,25 @@ footer ul {
         height: auto !important;
     }
     .column{
+        
         width: 100%;
         height: auto !important;
+    }
+    .row{
+        flex-direction: column;
+        width:100%;
+        height: auto;
+    }
+    .midddle{
+        flex-direction: column;
+        width:100%;
+        height: auto;
+    }
+    .countainer{
+        bottom: auto;
+    }
+    .bottom{
+        bottom: auto;
     }
 
 }
