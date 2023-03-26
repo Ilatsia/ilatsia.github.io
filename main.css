@@ -72,7 +72,7 @@ footer ul {
 }
 
 
-@media(min-width:600px){
+@media(max-width:600px){
     .main{
         flex-wrap: nowrap;
         
@@ -82,13 +82,18 @@ footer ul {
         max-width: 100%;
         height: auto !important;
     }
+    .middle{
+        flex-direction: column;
+        width: 100%;
+        height: auto !important;
+    }
     .column{
-        
+        flex-direction: column;
         width: 100%;
         height: auto !important;
     }
     .row{
-        flex-direction: column;
+        
         width:100%;
         height: auto;
     }
